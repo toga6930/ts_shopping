@@ -9,19 +9,13 @@ const Navbar = () => {
       <nav className="navbar">
         <ul className="navul">
           <li>
-            <a href="/" as={NavLink}>
-              Home
-            </a>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <a href="/about" as={NavLink}>
-              About
-            </a>
+            <NavLink to="/about">About</NavLink>
           </li>
           <li>
-            <a href="/store" as={NavLink}>
-              Store
-            </a>
+            <NavLink to="/store">Store</NavLink>
           </li>
         </ul>
         <button className="nav-button" onClick={openCart}>
@@ -34,3 +28,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
