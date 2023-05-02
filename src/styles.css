@@ -1,0 +1,201 @@
+body {
+  font-family: Poppins;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(5, 21, 36);
+  color: white;
+  scroll-behavior: smooth;
+}
+/*navbar */
+.navbar {
+  font-size: 1.8rem;
+  line-height: 1;
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  background: rgb(21, 84, 146);
+}
+.navul {
+  display: flex;
+  list-style: none;
+}
+.navul a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 0 1rem 0 0;
+}
+.navul a:hover {
+  color: dodgerblue;
+  transition: 0.4s;
+}
+.nav-button {
+  margin: 1rem 2rem 1rem auto;
+  font-size: 1.4rem;
+  padding: 1rem;
+  border-radius: 20%;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.486);
+  background: white;
+}
+.nav-button:hover {
+  background: rgb(206, 216, 228);
+  box-shadow: 0px 0px black;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.cart {
+  display: flex;
+  color: white;
+  background-color: red;
+  border-radius: 30%;
+  font-size: 1.1rem;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  bottom: 0;
+  right: 0;
+  transform: translate(0, -20%);
+}
+.container {
+  margin-top: 7rem;
+}
+/*storeitem */
+.store-container {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  height: 100%;
+}
+.store-container img {
+  object-fit: cover;
+  border-radius: 10px;
+  height: 15rem;
+  margin-top: 1rem;
+  width: 15rem;
+}
+.store {
+  padding: 1rem;
+}
+.store-content {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 1rem;
+}
+.store-content h1 {
+  margin: 1rem;
+}
+.store-content span {
+  color: #999;
+  font-size: 1.5rem;
+}
+.store-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.store-button button {
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  background: dodgerblue;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+.store-button button:hover {
+  background: rgb(20, 91, 161);
+  transition: 0.4s;
+}
+.quantity {
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+}
+.store-button button.remove-button {
+  margin-left: 1rem;
+  background: red;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+.store-button button.remove-button:hover {
+  background: rgb(180, 11, 11);
+}
+/*shoppingcart */
+.shopping-cart {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  bottom: 0;
+  width: 23.5rem;
+  background-color: rgb(10, 32, 53);
+  transition: 0.4s;
+}
+.open {
+  right: 0;
+}
+h2 {
+  margin: 0;
+}
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(27, 104, 180);
+}
+.close-button {
+  border: none;
+  color: white;
+  background: transparent;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.close-button:hover {
+  color: rgb(206, 216, 228);
+  transition: 0.4s;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-top: 2px solid #ddd;
+}
+.total span {
+  font-size: 1.5rem;
+}
+/*cartitem */
+.cart-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+}
+.cart-container img {
+  object-fit: cover;
+  width: 7rem;
+  height: 5rem;
+}
+.cart-container span {
+  color: rgb(223, 194, 194);
+  font-size: 0.8rem;
+}
+.cart-button {
+  border: 2px solid #dc3545;
+  border-radius: 5px;
+  color: red;
+  background: transparent;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+.cart-button:hover {
+  background: red;
+  color: white;
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 14",
+    "price": 1099,
+    "imgurl": "../images/iphone14.jpg"
+  },
+  {
+    "id": 2,
+    "name": "iPhone 14 PRO",
+    "price": 1399,
+    "imgurl": "../images/iphone14pro.jpg"
+  },
+  {
+    "id": 3,
+    "name": "iPhone 14 PRO MAX",
+    "price": 1549,
+    "imgurl": "../images/iphone14promax.jpg"
+  },
+  {
+    "id": 4,
+    "name": "iPhone 14 PLUS",
+    "price": 1249,
+    "imgurl": "../images/iphone14plus.jpg"
+  },
+  {
+    "id": 5,
+    "name": "iPhone SE 3",
+    "price": 579,
+    "imgurl": "../images/iphonese3.jpg"
+  }
+]
